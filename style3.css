@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background: #b197bf;
+    background: linear-gradient(90deg, rgba(177, 151, 191, 1) 0%, rgba(255, 149, 0, 1) 100%);
+}
+h1 {
+    text-align: center;
+}
+.LaVacca {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: grey;
+}  
+.Bombardiro {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   color: white;
+   background: #189932;
+   background: linear-gradient(90deg, rgba(24, 153, 50, 1) 48%, rgba(0, 0, 0, 1) 100%);
+}  
+.Tacos {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: burlywood;
+}
+.Glitch {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: chartreuse;
+}
+.CrabRave {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: bisque;
+}
+.Fire {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: orangered;
+}
+.fourthOfJuly {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background: #2A7B9B;
+   background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(176, 70, 150, 1) 50%, rgba(237, 83, 83, 1) 100%);
+}
+.NyanCats {
+   text-align: center;
+   font-size: 40px;
+   border-radius: 25px;
+   background-color: pink;
+}

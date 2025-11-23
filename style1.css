@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background: #89d6f5;
+    background: linear-gradient(90deg, rgba(137, 214, 245, 1) 0%, rgba(117, 255, 117, 1) 100%);
+}
+.firstimg {
+    width: 20%;
+}
+.mainimg {
+    width: 70%;
+}
+.SAB {
+    position: relative;
+}
+.SAB:hover {
+    color: white;
+    font-size: 25px;
+}
+header {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color: lightgreen;
+    font-size: 25px;
+}
+nav:hover {
+    border: 5px solid white;
+}
+.Info{
+   text-align: center;
+}
+
