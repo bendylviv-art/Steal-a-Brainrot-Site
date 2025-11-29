@@ -3,6 +3,38 @@ body {
     background: #cccccc;
     background: linear-gradient(90deg, rgba(204, 204, 204, 1) 0%, rgba(126, 126, 242, 1) 46%, rgba(0, 212, 255, 1) 100%);
 }
+header {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-button {
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color: lightgreen;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    border: 5px solid white;
+    color: white;
+    cursor: pointer;
+}
 .buttons {
     display: flex;
     justify-content: space-between;
@@ -88,8 +120,7 @@ h1 {
     text-align: center;
 }
 .imagepipikiwi {
-    position: relative;
-    margin-left: 190px;
+    margin-left: 600px; /* Змінюй це число: 100px, 200px тощо, щоб посунути далі */
 }
 p {
     background-color: white;
