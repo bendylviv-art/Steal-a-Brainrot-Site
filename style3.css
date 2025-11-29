@@ -2,58 +2,125 @@ body {
     font-family: sans-serif;
     background: #b197bf;
     background: linear-gradient(90deg, rgba(177, 151, 191, 1) 0%, rgba(255, 149, 0, 1) 100%);
+    margin: 0;
 }
+
+header {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-button {
+    border: 5px solid red;
+    border-radius: 15px;
+    background-color: lightgreen;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    border: 5px solid white;
+    color: white;
+    cursor: pointer;
+}
+
 h1 {
     text-align: center;
 }
-.LaVacca {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: grey;
-}  
-.Bombardiro {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   color: white;
-   background: #189932;
-   background: linear-gradient(90deg, rgba(24, 153, 50, 1) 48%, rgba(0, 0, 0, 1) 100%);
-}  
-.Tacos {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: burlywood;
+
+.MythLuckyBlock { color: black; }
+.BGLuckyBlock { color: black; }
+.ScLuckyBlock { color: black; }
+.AdLuckyBlock { color: black; }
+.SpLuckyBlock { color: black; }
+
+.MythLuckyBlock:hover { color: red; }
+.BGLuckyBlock:hover { color: plum; }
+.ScLuckyBlock:hover { color: white; }
+.AdLuckyBlock:hover { color: yellow; }
+.SpLuckyBlock:hover { color: orange; }
+
+.MythInfo {
+    color: white;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
 }
-.Glitch {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: chartreuse;
+.BGInfo {
+    color: white;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
 }
-.CrabRave {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: bisque;
+.ScInfo {
+    color: white;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
 }
-.Fire {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: orangered;
+.AdInfo {
+    color: white;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
 }
-.fourthOfJuly {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background: #2A7B9B;
-   background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(176, 70, 150, 1) 50%, rgba(237, 83, 83, 1) 100%);
+.SpInfo {
+    color: white;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
 }
-.NyanCats {
-   text-align: center;
-   font-size: 40px;
-   border-radius: 25px;
-   background-color: pink;
+
+.MythInfo:hover {
+    color: black;
+    background-color: red;
+    border-radius: 25px;
+}
+.BGInfo:hover {
+    color: black;
+    background-color: plum;
+    border-radius: 25px;
+}
+.ScInfo:hover {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+.AdInfo:hover {
+    color: red;
+    background-color: yellow;
+    border-radius: 25px;
+}
+.SpInfo:hover {
+    color: black;
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    border: 3px dashed black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
 }
