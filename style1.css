@@ -2,96 +2,37 @@ body {
     font-family: sans-serif;
     background: #89d6f5;
     background: linear-gradient(90deg, rgba(137, 214, 245, 1) 0%, rgba(117, 255, 117, 1) 100%);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
 .firstimg {
     width: 20%;
 }
-
 .mainimg {
     width: 70%;
-    display: block;
-    margin: 20px auto;
 }
-
 .SAB {
     position: relative;
-    text-align: center;
 }
-
 .SAB:hover {
     color: white;
     font-size: 25px;
 }
-
 header {
     background: #EEAECA;
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    width: 100%;
 }
-
-.nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.nav-button {
+nav {
     border: 5px solid red;
     border-radius: 15px;
     background-color: lightgreen;
     font-size: 25px;
-    text-decoration: none;
-    color: black;
-    padding: 5px 15px;
-    transition: all 0.3s ease;
 }
-
-.nav-button:hover {
+nav:hover {
     border: 5px solid white;
-    color: white;
-    cursor: pointer;
+}
+.Info{
+   text-align: center;
 }
 
-.Info {
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.SAB {
-    transition: 0.3s;
-    color: black;
-}
-
-.SAB:hover {
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-size: 200% auto;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    animation: rainbow 2s linear infinite;
-}
-
-@keyframes rainbow {
-    to {
-        background-position: 200% center;
-    }
-}
-
-footer {
-    text-align: center;
-    margin: 20px;
-}
